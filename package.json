@@ -1,12 +1,36 @@
 {
-  "name": "etherlink-agent-based-cli",
+  "name": "elink-cli",
   "version": "1.0.0",
+  "description": "A Swiss Army knife CLI for Etherlink developers - manage wallets, tokens, NFTs, and more on Etherlink blockchain.",
   "main": "index.js",
+  "bin": {
+    "elink": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": [
+    "etherlink",
+    "cli",
+    "blockchain",
+    "tezos",
+    "nft",
+    "token",
+    "wallet",
+    "cryptocurrency"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/elink-cli.git"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "etherlink-agent-kit": "0.1.0",
+    "ethers": "^6.15.0",
+    "node-fetch": "^3.3.2"
+  }
 }
